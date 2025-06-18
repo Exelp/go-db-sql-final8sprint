@@ -24,7 +24,7 @@ func (s ParcelStore) Get(number int) (Parcel, error) {
 	// здесь из таблицы должна вернуться только одна строка
 
 	// заполните объект Parcel данными из таблицы
-	p := Parcel{}
+	p := Parcel{1}
 
 	return p, nil
 }
